@@ -2,8 +2,8 @@ import sys
 
 def validate_input(integers):
     """
-    Validates the input to ensure it contains only integers.
-    If validation fails, the script exits with an error message.
+    Valida la entrada para garantizar que contenga solo números enteros.
+    Si la validación falla, el script sale con un mensaje de error.
     """
     try:
         return [int(x) for x in integers.split(",")]
